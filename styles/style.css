@@ -15,7 +15,8 @@
 
 .header__links-list {
   display: flex;
-  gap: 32px;
+  gap: 33px;
+  text-underline-offset: 3px;
   list-style: circle;
 }
 
@@ -37,7 +38,9 @@
   justify-self: start;
   max-width: 240px;
   font-size: 18px;
+  font-style: normal;
   line-height: 24.3px;
+  text-underline-offset: 3px;
 }
 
 .header__address {
@@ -195,6 +198,7 @@
   padding: 32px 0 0 40px;
   font-size: 20px;
   line-height: 20px;
+  text-underline-offset: 4px;
 }
 
 .about {
@@ -260,12 +264,12 @@
 }
 
 .footer__menu-list {
+  text-underline-offset: 4px;
   list-style: none;
 }
 
 .footer__menu-list-item {
-  font-size: 18px;
-  line-height: 18px;
+  line-height: 21px;
 }
 
 .footer__menu-link {
